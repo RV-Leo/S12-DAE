@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+api/.env
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+*.log
