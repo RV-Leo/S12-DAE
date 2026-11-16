@@ -1,0 +1,11 @@
+.movies-page__heading { display: flex; align-items: end; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-8); }
+.movies-page__heading h1 { margin: 0; font-size: clamp(2.3rem, 5vw, 3.7rem); }
+.table-scroll { overflow-x: auto; border: 1px solid var(--color-ink-700); border-radius: var(--radius-card); background: var(--color-ink-900); }
+.movies-table { width: 100%; min-width: 760px; border-collapse: collapse; text-align: left; }
+.movies-table th, .movies-table td { padding: var(--space-4); border-bottom: 1px solid var(--color-ink-700); }
+.movies-table thead { background: var(--color-ink-800); color: var(--color-amber-400); font-size: .82rem; letter-spacing: .04em; text-transform: uppercase; }
+.movies-table tbody tr:last-child > * { border-bottom: 0; }
+.movies-table tbody th { color: var(--color-ivory-100); font-weight: 600; }
+.table-skeleton { width: 100%; height: 1.1rem; }
+.movies-page__empty { padding: var(--space-8); border: 1px dashed var(--color-ink-700); border-radius: var(--radius-card); text-align: center; }
+@media (max-width: 560px) { .movies-page__heading { align-items: flex-start; flex-direction: column; } }

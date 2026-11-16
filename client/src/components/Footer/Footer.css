@@ -1,0 +1,2 @@
+.admin-footer { margin-top: var(--space-16); padding-block: var(--space-6); border-top: 1px solid var(--color-ink-700); color: var(--color-ivory-300); font-size: .85rem; }
+.app-main { min-height: 70vh; padding-block: var(--space-12); }

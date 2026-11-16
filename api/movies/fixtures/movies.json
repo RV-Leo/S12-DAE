@@ -1,0 +1,10 @@
+[
+  {"model": "movies.movie", "pk": 1, "fields": {"title": "La última linterna", "synopsis": "Una farera encuentra señales en un mar desaparecido.", "genre": "Misterio", "age_rating": "12+", "rating": "8.7", "duration_minutes": 112}},
+  {"model": "movies.movie", "pk": 2, "fields": {"title": "El huerto de cristal", "synopsis": "Dos hermanas reconstruyen el invernadero familiar.", "genre": "Drama", "age_rating": "A", "rating": "8.2", "duration_minutes": 104}},
+  {"model": "movies.movie", "pk": 3, "fields": {"title": "Órbita cero", "synopsis": "Una mecánica rescata una nave perdida.", "genre": "Ciencia ficción", "age_rating": "12+", "rating": "7.9", "duration_minutes": 126}},
+  {"model": "movies.movie", "pk": 4, "fields": {"title": "La ciudad de las polillas", "synopsis": "Un relojero llega al barrio borrado de los mapas.", "genre": "Aventura", "age_rating": "7+", "rating": "8.4", "duration_minutes": 98}},
+  {"model": "movies.movie", "pk": 5, "fields": {"title": "La hora azul", "synopsis": "Tres viajeros coinciden en el último tren.", "genre": "Drama", "age_rating": "A", "rating": "7.6", "duration_minutes": 101}},
+  {"model": "movies.movie", "pk": 6, "fields": {"title": "Lunas de papel", "synopsis": "Una niña devuelve la curiosidad a su abuelo astrónomo.", "genre": "Familiar", "age_rating": "A", "rating": "9.1", "duration_minutes": 95}},
+  {"model": "movies.movie", "pk": 7, "fields": {"title": "La memoria de la sal", "synopsis": "Una restauradora salva un archivo de voces costeras.", "genre": "Drama", "age_rating": "12+", "rating": "8.0", "duration_minutes": 109}},
+  {"model": "movies.movie", "pk": 8, "fields": {"title": "La montaña quieta", "synopsis": "Un guardabosques investiga un eco que recuerda.", "genre": "Aventura", "age_rating": "7+", "rating": "8.5", "duration_minutes": 117}}
+]
