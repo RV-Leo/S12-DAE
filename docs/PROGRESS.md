@@ -1,25 +1,16 @@
 # Progreso del laboratorio 12
 
-## Pasos
+## Estado
 
-- [ ] Paso 00 — Guía de trabajo
-- [ ] Base API — Django, Movie, CRUD, fixture y tests
-- [ ] Base cliente — React/Vite y diseño Aurora
-- [ ] Paso 01 — CORS
-- [ ] Paso 02 — Rutas de API
-- [ ] Paso 03 — Axios y variable de entorno
-- [ ] Paso 04 — Módulo API y normalización de errores
-- [ ] Paso 05 — Listado con useEffect
-- [ ] Paso 06 — Estados de carga/datos/error
-- [ ] Paso 07 — Confirmar y eliminar
-- [ ] Paso 08 — Formulario de alta
-- [ ] Paso 09 — Hallazgo CORS
-- [ ] Paso 10 — Validación 400 de la API
-- [ ] Paso 11 — API desconectada y reintento
-- [ ] Paso 12 — Tabla de estados documentada
-- [ ] Paso 13 — Cierre y publicación
+- [x] Paso 00 — Guía de trabajo y registro inicial (`0424d1e`).
+- [x] Base API — Django REST, modelo Movie, CRUD, fixture y pruebas.
+- [x] Base cliente — React/Vite y estilos Aurora reutilizados de S11.
+- [x] Pasos 01–04 — CORS limitado, rutas REST, Axios/env y errores normalizados.
+- [x] Pasos 05–07 — Listado, estados de pantalla, confirmación y eliminación.
+- [x] Pasos 08–11 — Alta, error 400 por campo, error de red y reintento.
+- [x] Pasos 12–13 — README, estados documentados y revisión final.
 
-Los hashes y horas se agregarán conforme se cierren los commits agrupados.
+El código de API y cliente quedó agrupado en `95d12d0`. El cierre documental se registra en el commit de documentación que acompaña este archivo.
 
 ## Decisiones
 
@@ -33,3 +24,6 @@ Los hashes y horas se agregarán conforme se cierren los commits agrupados.
 
 - Python disponible: 3.11.9. `py -0p` no encontró otro intérprete.
 - Origen permitido de CORS: `http://localhost:5173`; API: `http://localhost:8000/api/movies/`.
+- Verificación final: Django `check`, `makemigrations --check` y 4 pruebas pasaron; cliente `lint`, `build` y 7 pruebas pasaron.
+- El entorno permitió comprobar Django con su cliente de pruebas. La petición manual a `localhost` desde esta sesión expiró; no se afirma una comprobación de extremo a extremo en navegador.
+- La carpeta S12 comenzó sin remoto Git configurado; falta definir/verificar el destino antes de publicar.

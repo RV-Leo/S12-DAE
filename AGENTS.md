@@ -56,16 +56,17 @@ S12-DAE/
 └── client/ (React + Vite)
     ├── .env.example
     └── src/
-        ├── api/ (client.js · moviesApi.js)
-        ├── pages/ (MoviesListPage · MovieFormPage)
-        ├── components/ (Header · Button · Skeleton · ErrorState · ConfirmDialog)
-        └── styles/
+        ├── api/ (client.js · moviesApi.js · tests)
+        ├── pages/ (MoviesListPage · MovieFormPage · tests)
+        ├── components/ (Header · Footer · Button · Skeleton · ErrorState · ConfirmDialog)
+        ├── test/setup.js
+        └── styles/ (tokens · base · layout · forms · utilities)
 ```
 
 ## Comandos y reglas
 
-API en `api/`: activar `.venv`, `python manage.py migrate`, `python manage.py loaddata movies`, `python manage.py test`, `python manage.py runserver`.
-Cliente en `client/`: `npm install`, `npm run dev`, `npm run lint`, `npm run build`, `npm test`.
+API en `api/`: activar `.venv`, `python manage.py migrate`, `python manage.py loaddata movies`, `python manage.py test`, `python manage.py runserver localhost:8000`.
+Cliente en `client/`: `npm install`, `npm run dev -- --host localhost --port 5173 --strictPort`, `npm run lint`, `npm run build`, `npm test`.
 Python PEP 8; settings y secretos se leen de `.env`, nunca se sube `.env`; CORS autoriza solo `http://localhost:5173`. CSS oscuro de Aurora; React usa componentes por carpeta. Los cambios se agrupan en commits locales y se suben en un push al cierre.
 
 ## Terminado
